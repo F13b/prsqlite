@@ -1,16 +1,16 @@
-# sqlite_pr
+# Практическая работа №2
 
-A new Flutter project.
+Тема: Необходимо реализовать таблицы для предметной области "Магазин продуктов"
 
-## Getting Started
+### Ход работы
 
-This project is a starting point for a Flutter application.
+Создание таблиц 
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://user-images.githubusercontent.com/74062671/201840078-7f64cf56-af58-4298-8d59-3bcae34d0014.png)
+ 
+Сущности
+ ![image](https://user-images.githubusercontent.com/74062671/201840489-005e545e-7964-49bc-823a-a5d8ede3473f.png)
+Модели
+![image](https://user-images.githubusercontent.com/74062671/201840619-ccfc4fc3-7ef0-4721-a531-77bbdea8f22a.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Вывод: реализовал таблицы для предметной области "Магазин продуктов"
