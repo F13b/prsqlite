@@ -12,5 +12,8 @@
  ![image](https://user-images.githubusercontent.com/74062671/201840489-005e545e-7964-49bc-823a-a5d8ede3473f.png)
 ## Модели
 ![image](https://user-images.githubusercontent.com/74062671/201840619-ccfc4fc3-7ef0-4721-a531-77bbdea8f22a.png)
+## Таблицы
+
+## Данные в таблицах
 
 Вывод: реализовал таблицы для предметной области "Магазин продуктов"
