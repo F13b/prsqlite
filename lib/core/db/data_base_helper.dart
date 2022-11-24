@@ -21,7 +21,7 @@ class DataBaseHelper {
     _appDocumentDirectory =
         await path_provider.getApplicationDocumentsDirectory();
 
-    _pathDB = join(_appDocumentDirectory.path, 'test.db');
+    _pathDB = join(_appDocumentDirectory.path, 'test2.db');
 
     if (Platform.isWindows || Platform.isMacOS || Platform.isLinux) {
     } else {
@@ -55,14 +55,12 @@ class DataBaseHelper {
   }
 
   Future<void> onInitTable(Database db) async {
-    try {
-      for (var element in RoleEnum.values) {
-        db.insert(
-          DataBaseRequest.tableRole,
-          Role(name: element.name).toMap(),
-        );
-      }
-    } on DatabaseException catch (error) {}
+    for (var element in RoleEnum.values) {
+      db.insert(
+        DataBaseRequest.tableRole,
+        Role(name: element.name).toMap(),
+      );
+    }
   }
 
   Future<void> onDropDataBase() async {

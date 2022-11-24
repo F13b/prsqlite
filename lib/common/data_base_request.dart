@@ -50,7 +50,7 @@ abstract class DataBaseRequest {
         "CardNumber"	TEXT NOT NULL CHECK (length(CardNumber) = 16) ,
         "CardExp" DATE NOT NULL,
         "CardCVC" TEXT NOT NULL CHECK (length(CardCVC) = 3) ,
-        FOREIGN KEY("id") REFERENCES "$tableUser"("id") ON DELETE CASCADE,
+        FOREIGN KEY("id") REFERENCES "$tableUser"("id") ON DELETE CASCADE)
         ''';
 
   static const String _createTablePersonalData =
@@ -59,7 +59,7 @@ abstract class DataBaseRequest {
         "Name"	TEXT NOT NULL,
         "LName" TEXT NOT NULL,
         "Patronymic" TEXT NULL,
-        FOREIGN KEY("id") REFERENCES "$tableUser"("id") ON DELETE CASCADE,
+        FOREIGN KEY("id") REFERENCES "$tableUser"("id") ON DELETE CASCADE )
         ''';
 
   static const String _createTableCategory = '''CREATE TABLE "$tableCategory" (
